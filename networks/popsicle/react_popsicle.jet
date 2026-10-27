@@ -1,12 +1,12 @@
 #Chemical network for POPSICLE simulations
-#Authors: Piyush Sharda (Leiden) and Shyam H. Menon (CCA), 2024
+#Authors: Piyush Sharda (Leiden) and Shyam H. Menon (CCA), 2024-2026
 #the following is the primordial network including deuterium species from react_primordial_wD
 #with metal reactions from Omukai 2000, Omukai+2005, Glover and Jappsen 2007, Glover+2010
 #Includes cosmic ray chemistry
-#No photo chemistry included
-#Uses Semenov+2003 opacities and does not use KROME's inbuilt dust functionality (except for freezeout reactions)
-#To test the network, look at krome/tests/popsicle_semenov_cr
+#Includes photo chemistry
+#Uses Semenov+2003 opacities and does not use KROME's inbuilt dust functionality
 #user_chiFUV: set FUV radiation field in 6 - 13.6 eV relative to the standard radiation field (user_chiFUV = 1 at J_FUV 2.7e-3 erg cm^-2 s^-1) in Draine (1978). This field has a strength of G0 = 1.7 in Habing (1968) units.
+#for further details, see Menon et al. (2026): arXiv: https://arxiv.org/abs/2610.17577
 
 @var:T=Tgas
 
